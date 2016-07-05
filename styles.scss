@@ -25,7 +25,20 @@ header {
 }
 header input {
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
+  margin: 30px 0 0 20px;
+  font-size: 16px;
+  padding: 4px;
+  width: 300px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #9B9B9B;
+  box-shadow: none;
+}
+header img {
+  margin: 10px 0 0 40px;
+  height: 60px;
+  width: 90px;
 }
 h4 {
   margin: 1.5% 0 1% 3%;
@@ -33,8 +46,8 @@ h4 {
   font-family: serif;
 }
 .sidebar {
-  width: 280px;
-  //230 width for boxes inside
+  width: 240px;
+  margin-left: 40px;
   float: left;
   height: 100vw;
 }
@@ -79,8 +92,24 @@ h4 {
   display: inline-block;
   float: right;
 }
-header img {
-  margin-left: 40px;
-  height: 60px;
-  width: 90px;
+.sidebar h5 {
+  font-weight: 500;
+  margin: 29px 0 13px 0px;
+}
+.side-box h5 {
+  margin: 8px 0 8px 5px;
+
+}
+.side-box {
+  width: 230px;
+  background-color: white;
+  border: 1px solid #E1E3DF;
+}
+.side-box a {
+  display: block;
+  text-decoration: none;
+  font-size: 13.5px;
+  margin-left: 20px;
+  line-height: 24px;
+  color: #34A8C4;
 }
