@@ -109,4 +109,12 @@ h4 {
   line-height: 24px;
   color: #34A8C4; }
 
+@media (max-width: 1420px) {
+  .maindisplay {
+    width: 65%; }
+
+  .itemdisplay {
+    width: 31%;
+    height: 19vw; } }
+
 /*# sourceMappingURL=styles.css.map */
